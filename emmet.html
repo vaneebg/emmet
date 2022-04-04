@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--1.EMMET 1.Elementos simples h1+h2+p-->
+    <h1></h1>
+    <h2></h2>
+    <p></p>
+
+    <!--2.Elementos con contenido h1{Soy un título}+p{y yo soy un párrafo}-->
+    <h1>Soy un título</h1>
+    <p>y yo soy un párrafo</p>
+
+    <!--3. Anidamiento simple h1>mark-->
+    <h1>
+      <mark></mark>
+    </h1>
+
+    <!--4.Anidamiento con contenido h1>mark{El texto subrayado}-->
+    <h1>
+      <mark>El texto subrayado</mark>
+    </h1>
+
+    <!--5.Anidamiento con multiples elementos ul>li*5-->
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <!--6.Anidamiento con múltiples elementos y contenidos ul>li{Elemento}*5-->
+    <ul>
+      <li>elemento</li>
+      <li>elemento</li>
+      <li>elemento</li>
+      <li>elemento</li>
+      <li>elemento</li>
+    </ul>
+
+    <!--EMMET 2
+      1.Tablas table>tr>td*3-->
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <!--2.Tablas y agrupaciones table>(tr>th*3)+(tr>td*3)-->
+    <table>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <!--EMMET 3
+1.Clases and ID table#super-table>tr>td*3.table-data-->
+    <table id="super-table">
+      <tr>
+        <td class="table-data"></td>
+        <td class="table-data"></td>
+        <td class="table-data"></td>
+      </tr>
+    </table>
+
+    <!--2.Formularios form:get[action="/action_page.php"]>label[for="fname"]{First name:}+input#fname[name="fname"]+input:s[value="submit"]-->
+    <form action="/action_page.php" method="get">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"/>
+      <input type="submit" value="submit"/>
+    </form>
+
+  </body>
+</html>
